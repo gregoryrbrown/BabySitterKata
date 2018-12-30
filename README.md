@@ -4,6 +4,8 @@ This is a calculator for babysitter pay. It takes three inputs, start time ("5:4
 
 Assumption: going to implement the business logic for this. The product won't be an executable, but that might be produced as a side effect of testing it.
 
+Assumption: this will do the calculation for one night at a time. If there's an executable, that might allow for calculating multiple nights before ending.
+
 Assumption: it is ok to throw an exception on the occurrence of entering an invalid time
 
 Assumption: Something has to be done with fractional hours. Assuming it will just ignore the fractional part for now. Thus, if the start time is "5:16PM" and the end time is "11:10PM", that is only considered 5 hours.
